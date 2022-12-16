@@ -92,21 +92,21 @@ const PetForm = () => {
                     <input
                       type="text"
                       className="form-control"
-                      onChange={(e) => setName(e.target.value)}
+                      onChange={(e) => setSkills1(e.target.value)}
                       value={skills1}
                     />
                     <label htmlFor="type">Skills 2:</label>
                     <input
                       type="text"
                       className="form-control"
-                      onChange={(e) => setName(e.target.value)}
+                      onChange={(e) => setSkills2(e.target.value)}
                       value={skills2}
                     />
                     <label htmlFor="type">Skills 3:</label>
                     <input
                       type="text"
                       className="form-control"
-                      onChange={(e) => setName(e.target.value)}
+                      onChange={(e) => setSkills3(e.target.value)}
                       value={skills3}
                     />
                   </div>
